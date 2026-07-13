@@ -1,0 +1,187 @@
+/* DURE Design System v1.0 — Components */
+.dure-button {
+  display: inline-flex;
+  min-height: 44px;
+  padding-inline: var(--space-5);
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border: 1px solid transparent;
+  border-radius: var(--radius-round);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-body);
+  transition:
+    transform var(--duration-fast) var(--ease-standard),
+    box-shadow var(--duration-fast) var(--ease-standard),
+    background var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
+}
+
+.dure-button:hover {
+  transform: translateY(-2px);
+}
+
+.dure-button--primary {
+  color: #fff;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.dure-button--primary:hover {
+  background: var(--color-primary-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+.dure-button--secondary {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+.dure-button--secondary:hover {
+  border-color: var(--dure-green-300);
+  box-shadow: var(--shadow-sm);
+}
+
+.dure-button--soft {
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.dure-button--text {
+  min-height: auto;
+  padding: 0;
+  color: var(--color-primary);
+  border: 0;
+  background: transparent;
+}
+
+.dure-button--lg {
+  min-height: 54px;
+  padding-inline: var(--space-6);
+  font-size: var(--text-md);
+}
+
+.dure-button--sm {
+  min-height: 36px;
+  padding-inline: var(--space-4);
+  font-size: var(--text-xs);
+}
+
+.dure-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.dure-card--padded {
+  padding: clamp(var(--space-6), 4vw, var(--space-12));
+}
+
+.dure-card--feature {
+  border-color: transparent;
+  background:
+    radial-gradient(circle at 92% 8%, rgba(173, 219, 94, .24), transparent 16rem),
+    linear-gradient(145deg, #1a2617, #2d4b20);
+  color: #fff;
+  box-shadow: var(--shadow-lg);
+}
+
+.dure-card--soft {
+  background: var(--color-surface-soft);
+  box-shadow: none;
+}
+
+.dure-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding-inline: var(--space-3);
+  border-radius: var(--radius-round);
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+}
+
+.dure-grid {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.dure-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.dure-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.dure-stack--2 { gap: var(--space-2); }
+.dure-stack--4 { gap: var(--space-4); }
+.dure-stack--6 { gap: var(--space-6); }
+.dure-stack--8 { gap: var(--space-8); }
+
+.dure-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  border-bottom: 1px solid rgba(232, 235, 226, .9);
+  background: rgba(255, 255, 255, .88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.dure-header__inner {
+  min-height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+}
+
+.dure-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 23px;
+  font-weight: var(--weight-extrabold);
+  letter-spacing: var(--tracking-tight);
+  white-space: nowrap;
+}
+
+.dure-brand__mark {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  border: 3px solid var(--color-text);
+  border-left-color: transparent;
+  border-radius: 50%;
+  transform: rotate(-42deg);
+}
+
+.dure-brand__mark::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 1px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.dure-divider {
+  height: 1px;
+  border: 0;
+  background: var(--color-border);
+}
+
+@media (max-width: 720px) {
+  .dure-grid--2 { grid-template-columns: 1fr; }
+  .dure-button--mobile-full { width: 100%; }
+}
