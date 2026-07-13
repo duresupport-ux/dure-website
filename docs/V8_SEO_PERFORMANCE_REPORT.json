@@ -1,0 +1,214 @@
+{
+  "version": "v8",
+  "site_url": "https://duresupport-ux.github.io/dure-website",
+  "indexed_pages": [
+    "index.html",
+    "family-store/index.html",
+    "neighbor-store/index.html",
+    "family-application/index.html",
+    "stores/andamiro/index.html"
+  ],
+  "noindex_pages": [
+    "layout-system.html",
+    "404.html"
+  ],
+  "webp_conversions": [
+    {
+      "from": "andamiro-01-da81d201e4ac.png",
+      "to": "andamiro-01-da81d201e4ac.webp",
+      "width": 1254,
+      "height": 1254,
+      "before_bytes": 2063908,
+      "after_bytes": 70526,
+      "saving_percent": 96.6
+    },
+    {
+      "from": "andamiro-03-8d00b7edf5a0.png",
+      "to": "andamiro-03-8d00b7edf5a0.webp",
+      "width": 357,
+      "height": 357,
+      "before_bytes": 54738,
+      "after_bytes": 9498,
+      "saving_percent": 82.6
+    },
+    {
+      "from": "andamiro-04-8e7082d8c234.png",
+      "to": "andamiro-04-8e7082d8c234.webp",
+      "width": 1254,
+      "height": 1254,
+      "before_bytes": 2039619,
+      "after_bytes": 127974,
+      "saving_percent": 93.7
+    },
+    {
+      "from": "andamiro-05-f3d035ed72a5.png",
+      "to": "andamiro-05-f3d035ed72a5.webp",
+      "width": 1254,
+      "height": 1254,
+      "before_bytes": 2054495,
+      "after_bytes": 136862,
+      "saving_percent": 93.3
+    },
+    {
+      "from": "andamiro-06-78f95955811e.png",
+      "to": "andamiro-06-78f95955811e.webp",
+      "width": 1086,
+      "height": 1448,
+      "before_bytes": 2012694,
+      "after_bytes": 132202,
+      "saving_percent": 93.4
+    },
+    {
+      "from": "application-01-a44e7e477332.png",
+      "to": "application-01-a44e7e477332.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 1212081,
+      "after_bytes": 51068,
+      "saving_percent": 95.8
+    },
+    {
+      "from": "application-02-86570e06d4fd.png",
+      "to": "application-02-86570e06d4fd.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 1449768,
+      "after_bytes": 62914,
+      "saving_percent": 95.7
+    },
+    {
+      "from": "application-03-f1f30dbcbdaf.png",
+      "to": "application-03-f1f30dbcbdaf.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 1251301,
+      "after_bytes": 65412,
+      "saving_percent": 94.8
+    },
+    {
+      "from": "application-04-2f59f869f4d9.png",
+      "to": "application-04-2f59f869f4d9.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 2016829,
+      "after_bytes": 124220,
+      "saving_percent": 93.8
+    },
+    {
+      "from": "application-05-c1abe764803a.png",
+      "to": "application-05-c1abe764803a.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 1663382,
+      "after_bytes": 112792,
+      "saving_percent": 93.2
+    },
+    {
+      "from": "application-06-ff18559d1bd0.png",
+      "to": "application-06-ff18559d1bd0.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 1360767,
+      "after_bytes": 87672,
+      "saving_percent": 93.6
+    },
+    {
+      "from": "application-07-20bcc5d174d8.png",
+      "to": "application-07-20bcc5d174d8.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 1323267,
+      "after_bytes": 88394,
+      "saving_percent": 93.3
+    },
+    {
+      "from": "home-01-e616251981fa.png",
+      "to": "home-01-e616251981fa.webp",
+      "width": 1672,
+      "height": 941,
+      "before_bytes": 1689675,
+      "after_bytes": 111874,
+      "saving_percent": 93.4
+    },
+    {
+      "from": "home-02-acbbbaf85af4.png",
+      "to": "home-02-acbbbaf85af4.webp",
+      "width": 1672,
+      "height": 941,
+      "before_bytes": 595292,
+      "after_bytes": 35802,
+      "saving_percent": 94.0
+    },
+    {
+      "from": "home-03-fef1800b656e.png",
+      "to": "home-03-fef1800b656e.webp",
+      "width": 1672,
+      "height": 941,
+      "before_bytes": 1963471,
+      "after_bytes": 155112,
+      "saving_percent": 92.1
+    },
+    {
+      "from": "home-04-d21d74943a61.png",
+      "to": "home-04-d21d74943a61.webp",
+      "width": 1620,
+      "height": 971,
+      "before_bytes": 563985,
+      "after_bytes": 48834,
+      "saving_percent": 91.3
+    },
+    {
+      "from": "home-05-ea1204eeb32d.png",
+      "to": "home-05-ea1204eeb32d.webp",
+      "width": 1195,
+      "height": 1316,
+      "before_bytes": 1288445,
+      "after_bytes": 57918,
+      "saving_percent": 95.5
+    },
+    {
+      "from": "home-06-7b97a2087df8.png",
+      "to": "home-06-7b97a2087df8.webp",
+      "width": 1884,
+      "height": 835,
+      "before_bytes": 2027489,
+      "after_bytes": 92792,
+      "saving_percent": 95.4
+    },
+    {
+      "from": "neighbor-01-05beef31161d.png",
+      "to": "neighbor-01-05beef31161d.webp",
+      "width": 1122,
+      "height": 1402,
+      "before_bytes": 959912,
+      "after_bytes": 49014,
+      "saving_percent": 94.9
+    },
+    {
+      "from": "neighbor-02-879dd558bc5d.png",
+      "to": "neighbor-02-879dd558bc5d.webp",
+      "width": 1122,
+      "height": 1402,
+      "before_bytes": 1936549,
+      "after_bytes": 107942,
+      "saving_percent": 94.4
+    },
+    {
+      "from": "neighbor-03-e2956e2c99d4.png",
+      "to": "neighbor-03-e2956e2c99d4.webp",
+      "width": 1024,
+      "height": 1536,
+      "before_bytes": 2621629,
+      "after_bytes": 161052,
+      "saving_percent": 93.9
+    }
+  ],
+  "total_original_bytes": 32149296,
+  "total_webp_bytes": 1889874,
+  "missing_assets": [],
+  "missing_canonical": [],
+  "missing_description": [],
+  "missing_structured_data": [],
+  "images_without_dimensions": [],
+  "image_saving_percent": 94.1
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://duresupport-ux.github.io/dure-website/sitemap.xml
