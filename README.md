@@ -50,3 +50,9 @@ python3 -m http.server 8000
 - 문서: `docs/LAYOUT_COMPONENT_SYSTEM.md`
 
 Container, Section, Grid, Split, Hero, CTA를 공통 레이아웃으로 사용할 수 있습니다.
+
+
+## v7 Full Layout Refactor
+
+전체 5개 페이지가 DURE Design System + Layout Component System으로 전환되었습니다.
+검증 결과는 `docs/V7_FULL_LAYOUT_REPORT.json`에서 확인할 수 있습니다.

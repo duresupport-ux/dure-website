@@ -1,0 +1,61 @@
+{
+  "version": "v7",
+  "pages": {
+    "index.html": {
+      "dure_container": 9,
+      "dure_section": 29,
+      "dure_hero": 4,
+      "dure_grid": 2,
+      "dure_split": 0,
+      "dure_card": 4,
+      "dure_button": 10
+    },
+    "family-store/index.html": {
+      "dure_container": 9,
+      "dure_section": 29,
+      "dure_hero": 4,
+      "dure_grid": 2,
+      "dure_split": 0,
+      "dure_card": 4,
+      "dure_button": 10
+    },
+    "neighbor-store/index.html": {
+      "dure_container": 4,
+      "dure_section": 14,
+      "dure_hero": 5,
+      "dure_grid": 4,
+      "dure_split": 3,
+      "dure_card": 5,
+      "dure_button": 10
+    },
+    "family-application/index.html": {
+      "dure_container": 2,
+      "dure_section": 2,
+      "dure_hero": 0,
+      "dure_grid": 0,
+      "dure_split": 0,
+      "dure_card": 7,
+      "dure_button": 4
+    },
+    "stores/andamiro/index.html": {
+      "dure_container": 3,
+      "dure_section": 18,
+      "dure_hero": 0,
+      "dure_grid": 4,
+      "dure_split": 6,
+      "dure_card": 15,
+      "dure_button": 8
+    }
+  },
+  "missing_local_assets": [],
+  "missing_component_links": [],
+  "missing_layout_links": [],
+  "legacy_headers": [],
+  "legacy_footers": [],
+  "css_refactor": {
+    "andamiro_before_lines": 386,
+    "andamiro_after_lines": 142,
+    "application_before_lines": 249,
+    "application_after_lines": 104
+  }
+}
