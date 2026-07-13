@@ -114,3 +114,53 @@
   --duration-slow: 420ms;
   --ease-standard: cubic-bezier(.2, .75, .25, 1);
 }
+
+
+/* DURE Design Tokens 2.0 */
+:root {
+  /* Refined brand aliases */
+  --color-brand: #5f9f22;
+  --color-brand-strong: #477d18;
+  --color-brand-soft: #eef6e4;
+  --color-brand-faint: #f8fbf3;
+
+  --color-text-strong: #11130f;
+  --color-text-default: #2f332c;
+  --color-text-subtle: #6e7469;
+
+  --color-surface-raised: rgba(255, 255, 255, .94);
+  --color-surface-muted: #f8faf5;
+  --color-overlay: rgba(15, 16, 13, .5);
+
+  /* Refined spacing */
+  --space-14: 3.5rem;
+  --space-18: 4.5rem;
+  --space-28: 7rem;
+  --space-36: 9rem;
+
+  /* Refined radius */
+  --radius-xs: .5rem;
+  --radius-card: .875rem;
+  --radius-panel: 1.25rem;
+  --radius-hero: 1.5rem;
+
+  /* Refined shadows */
+  --shadow-hairline: 0 1px 0 rgba(20, 30, 16, .05);
+  --shadow-card: 0 8px 30px rgba(27, 48, 17, .055);
+  --shadow-card-hover: 0 16px 42px rgba(27, 48, 17, .085);
+  --shadow-floating: 0 24px 70px rgba(27, 48, 17, .13);
+
+  /* Z-index */
+  --z-base: 0;
+  --z-sticky: 30;
+  --z-overlay: 80;
+  --z-modal: 100;
+
+  /* Opacity */
+  --opacity-muted: .72;
+  --opacity-disabled: .45;
+
+  /* Content widths */
+  --measure-copy: 42.5rem;
+  --measure-wide: 52rem;
+}

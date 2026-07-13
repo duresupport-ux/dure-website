@@ -1,0 +1,77 @@
+/* DURE State Components */
+.dure-alert {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.dure-alert--success {
+  border-color: rgba(47,143,70,.18);
+  background: rgba(47,143,70,.06);
+}
+
+.dure-alert--warning {
+  border-color: rgba(201,130,22,.18);
+  background: rgba(201,130,22,.06);
+}
+
+.dure-alert--danger {
+  border-color: rgba(196,69,69,.18);
+  background: rgba(196,69,69,.06);
+}
+
+.dure-empty {
+  padding: clamp(var(--space-8), 6vw, var(--space-16));
+  text-align: center;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-panel);
+  background: var(--color-surface-muted);
+}
+
+.dure-loading {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--color-primary-soft);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: dure-spin .8s linear infinite;
+}
+
+@keyframes dure-spin {
+  to { transform: rotate(360deg); }
+}
+
+.dure-toast {
+  position: fixed;
+  right: var(--space-5);
+  bottom: var(--space-5);
+  z-index: var(--z-overlay);
+  max-width: 360px;
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: rgba(255,255,255,.96);
+  box-shadow: var(--shadow-floating);
+  backdrop-filter: blur(16px);
+}
+
+.dure-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  display: grid;
+  place-items: center;
+  padding: var(--space-5);
+  background: var(--color-overlay);
+}
+
+.dure-modal {
+  width: min(100%, 620px);
+  padding: var(--space-8);
+  border-radius: var(--radius-panel);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-floating);
+}

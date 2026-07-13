@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>DURE UI Kit v8.5</title>
+  <link rel="stylesheet" href="./assets/css/tokens.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/forms.css">
+  <link rel="stylesheet" href="./assets/css/states.css">
+  <link rel="stylesheet" href="./assets/css/polish.css">
+  <style>
+    .kit-nav { position:sticky; top:0; z-index:50; border-bottom:1px solid var(--color-border); background:rgba(255,255,255,.92); backdrop-filter:blur(14px); }
+    .kit-nav__inner { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .kit-swatch { min-height:110px; border-radius:var(--radius-card); padding:16px; display:flex; align-items:end; font-size:12px; font-weight:700; }
+  </style>
+</head>
+<body>
+  <header class="kit-nav">
+    <div class="dure-container kit-nav__inner">
+      <strong>DURE UI Kit</strong>
+      <span class="dure-badge">v8.5</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="dure-section dure-section--hero">
+      <div class="dure-container dure-hero">
+        <div class="dure-hero__content">
+          <span class="dure-eyebrow">DURE DESIGN SYSTEM</span>
+          <h1 class="dure-display">따뜻하고 신뢰감 있는<br>로컬 서비스 UI.</h1>
+          <p class="dure-hero__lead">두레의 마케팅 사이트와 향후 SaaS 관리 화면까지 일관되게 확장하기 위한 UI Kit입니다.</p>
+        </div>
+        <aside class="dure-hero__aside dure-stack dure-stack--4">
+          <span class="dure-badge">Principles</span>
+          <h2 class="dure-heading-3">Simple · Warm · Trust</h2>
+          <p class="dure-body">과한 장식보다 명확한 위계, 넓은 여백, 자연스러운 대비를 우선합니다.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="dure-section dure-section--soft">
+      <div class="dure-container dure-stack dure-stack--10">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">01 · COLOR</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Brand Colors</h2>
+          </div>
+        </div>
+        <div class="dure-grid dure-grid--4">
+          <div class="kit-swatch" style="background:#eef6e4">Brand Soft<br>#EEF6E4</div>
+          <div class="kit-swatch" style="background:#5f9f22;color:white">Brand<br>#5F9F22</div>
+          <div class="kit-swatch" style="background:#477d18;color:white">Brand Strong<br>#477D18</div>
+          <div class="kit-swatch" style="background:#11130f;color:white">Text Strong<br>#11130F</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dure-section">
+      <div class="dure-container dure-stack dure-stack--10">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">02 · BUTTONS</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Button System</h2>
+          </div>
+        </div>
+        <div class="dure-surface dure-stack dure-stack--6">
+          <div class="dure-inline dure-inline--3">
+            <button class="dure-button dure-button--primary">Primary</button>
+            <button class="dure-button dure-button--secondary">Secondary</button>
+            <button class="dure-button dure-button--soft">Soft</button>
+            <button class="dure-button dure-button--text">Text →</button>
+          </div>
+          <div class="dure-inline dure-inline--3">
+            <button class="dure-button dure-button--primary dure-button--lg">Large</button>
+            <button class="dure-button dure-button--primary">Medium</button>
+            <button class="dure-button dure-button--primary dure-button--sm">Small</button>
+            <button class="dure-button dure-button--primary" disabled>Disabled</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dure-section dure-section--soft">
+      <div class="dure-container dure-stack dure-stack--10">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">03 · CARDS</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Card System</h2>
+          </div>
+        </div>
+        <div class="dure-grid dure-grid--3">
+          <article class="dure-card dure-card--padded dure-stack dure-stack--4">
+            <span class="dure-badge">Default</span>
+            <h3 class="dure-heading-3">가족가게</h3>
+            <p class="dure-body">매장 방문 고객의 동선을 활용해 이웃가게를 소개합니다.</p>
+          </article>
+          <article class="dure-card dure-card--soft dure-card--padded dure-stack dure-stack--4">
+            <span class="dure-badge">Soft</span>
+            <h3 class="dure-heading-3">이웃가게</h3>
+            <p class="dure-body">가까운 실제 고객에게 우리 가게를 자연스럽게 알립니다.</p>
+          </article>
+          <article class="dure-card dure-card--feature dure-card--padded dure-stack dure-stack--4">
+            <span class="dure-badge">Feature</span>
+            <h3 class="dure-heading-3">함께 성장</h3>
+            <p style="color:rgba(255,255,255,.75);margin:0">광고를 넘어 지역 안에서 연결을 만듭니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dure-section">
+      <div class="dure-container dure-stack dure-stack--10">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">04 · FORMS</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Form System</h2>
+          </div>
+        </div>
+        <form class="dure-surface dure-stack dure-stack--6">
+          <div class="dure-form-grid">
+            <label class="dure-field">
+              <span class="dure-label">가게명</span>
+              <input class="dure-input" placeholder="가게명을 입력하세요">
+              <span class="dure-help">네이버 플레이스와 동일한 이름을 권장합니다.</span>
+            </label>
+            <label class="dure-field">
+              <span class="dure-label">연락처</span>
+              <input class="dure-input" placeholder="010-0000-0000">
+            </label>
+          </div>
+          <label class="dure-field">
+            <span class="dure-label">네이버 플레이스 링크</span>
+            <input class="dure-input" placeholder="https://map.naver.com/...">
+          </label>
+          <label class="dure-field">
+            <span class="dure-label">소개</span>
+            <textarea class="dure-textarea" placeholder="가게의 특징을 알려주세요."></textarea>
+          </label>
+          <label class="dure-check">
+            <input type="checkbox">
+            <span>개인정보 수집 및 이용에 동의합니다.</span>
+          </label>
+          <div>
+            <button class="dure-button dure-button--primary dure-button--lg">신청하기</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="dure-section dure-section--soft">
+      <div class="dure-container dure-stack dure-stack--10">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">05 · STATES</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">State Components</h2>
+          </div>
+        </div>
+        <div class="dure-stack dure-stack--4">
+          <div class="dure-alert dure-alert--success">신청이 정상적으로 접수되었습니다.</div>
+          <div class="dure-alert dure-alert--warning">필수 정보를 다시 확인해주세요.</div>
+          <div class="dure-alert dure-alert--danger">문제가 발생했습니다. 잠시 후 다시 시도해주세요.</div>
+          <div class="dure-empty">
+            <h3 class="dure-heading-3">아직 등록된 이웃가게가 없습니다.</h3>
+            <p class="dure-body" style="margin-inline:auto">새로운 이웃가게가 등록되면 이곳에서 확인할 수 있습니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dure-section">
+      <div class="dure-container">
+        <div class="dure-cta">
+          <div>
+            <span class="dure-cta__label">DURE CTA</span>
+            <h2 class="dure-cta__title">우리 동네의 새로운 연결을 시작하세요.</h2>
+            <p class="dure-cta__description">한 화면에는 하나의 핵심 행동만 명확하게 제시합니다.</p>
+          </div>
+          <div class="dure-cta__actions">
+            <button class="dure-button dure-button--soft dure-button--lg">가족가게 신청</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

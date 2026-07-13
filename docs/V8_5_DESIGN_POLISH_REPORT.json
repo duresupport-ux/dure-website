@@ -1,0 +1,41 @@
+{
+  "version": "v8.5",
+  "html_files": 8,
+  "polish_css_linked": [
+    "index.html",
+    "404.html",
+    "layout-system.html",
+    "ui-kit.html",
+    "family-store/index.html",
+    "neighbor-store/index.html",
+    "family-application/index.html",
+    "stores/andamiro/index.html"
+  ],
+  "forms_css_linked": [
+    "index.html",
+    "404.html",
+    "layout-system.html",
+    "ui-kit.html",
+    "family-store/index.html",
+    "neighbor-store/index.html",
+    "family-application/index.html",
+    "stores/andamiro/index.html"
+  ],
+  "states_css_linked": [
+    "index.html",
+    "404.html",
+    "layout-system.html",
+    "ui-kit.html",
+    "family-store/index.html",
+    "neighbor-store/index.html",
+    "family-application/index.html",
+    "stores/andamiro/index.html"
+  ],
+  "missing_assets": [],
+  "ui_kit_exists": true,
+  "docs": [
+    "docs/DESIGN_GUIDELINES_V2.md",
+    "docs/ICON_GUIDE.md",
+    "docs/ILLUSTRATION_GUIDE.md"
+  ]
+}
