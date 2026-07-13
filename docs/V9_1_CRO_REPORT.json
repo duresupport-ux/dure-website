@@ -1,0 +1,44 @@
+{
+  "version": "v9.1",
+  "pages": {
+    "index.html": {
+      "sections": 6,
+      "headings": 13,
+      "body_paragraphs": 12,
+      "images": 3
+    },
+    "family-store/index.html": {
+      "sections": 5,
+      "headings": 11,
+      "body_paragraphs": 11,
+      "images": 2
+    },
+    "neighbor-store/index.html": {
+      "sections": 4,
+      "headings": 8,
+      "body_paragraphs": 7,
+      "images": 2
+    },
+    "family-application/index.html": {
+      "sections": 4,
+      "headings": 11,
+      "body_paragraphs": 10,
+      "images": 7
+    },
+    "stores/andamiro/index.html": {
+      "sections": 5,
+      "headings": 11,
+      "body_paragraphs": 10,
+      "images": 5
+    }
+  },
+  "image_only_sections_remaining": [],
+  "missing_assets": [],
+  "primary_cta_counts": {
+    "index.html": 3,
+    "family-store/index.html": 1,
+    "neighbor-store/index.html": 2,
+    "family-application/index.html": 2,
+    "stores/andamiro/index.html": 1
+  }
+}
