@@ -41,3 +41,12 @@ python3 -m http.server 8000
 - `assets/js/components.js`에서 전 페이지의 헤더와 푸터를 관리합니다.
 - 각 HTML에는 `<dure-header>`와 `<dure-footer>`만 남습니다.
 - 상세 구조는 `docs/COMPONENT_ARCHITECTURE.md`를 확인합니다.
+
+
+## Layout Component System
+
+- `assets/css/layout.css`
+- 미리보기: `layout-system.html`
+- 문서: `docs/LAYOUT_COMPONENT_SYSTEM.md`
+
+Container, Section, Grid, Split, Hero, CTA를 공통 레이아웃으로 사용할 수 있습니다.

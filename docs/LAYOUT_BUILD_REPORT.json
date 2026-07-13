@@ -1,0 +1,14 @@
+{
+  "html_files": 7,
+  "layout_css_linked": [
+    "index.html",
+    "404.html",
+    "layout-system.html",
+    "family-store/index.html",
+    "neighbor-store/index.html",
+    "family-application/index.html",
+    "stores/andamiro/index.html"
+  ],
+  "layout_css_missing": [],
+  "missing_local_assets": []
+}

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DURE Layout Component System</title>
+  <link rel="stylesheet" href="./assets/css/tokens.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <style>
+    .demo-label { color: var(--color-primary); font-size: 12px; font-weight: 800; }
+    .demo-box { min-height: 120px; display:grid; place-items:center; border:1px dashed var(--dure-green-300); border-radius:var(--radius-md); background:var(--color-primary-soft); }
+    .demo-nav { position:sticky; top:0; z-index:50; background:rgba(255,255,255,.92); border-bottom:1px solid var(--color-border); backdrop-filter:blur(12px); }
+    .demo-nav__inner { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+  </style>
+</head>
+<body>
+  <div class="demo-nav">
+    <div class="dure-container demo-nav__inner">
+      <strong>DURE Layout System</strong>
+      <span class="dure-badge">v1.0</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="dure-section dure-section--hero">
+      <div class="dure-container dure-hero">
+        <div class="dure-hero__content">
+          <span class="dure-eyebrow">LAYOUT SYSTEM</span>
+          <h1 class="dure-display">페이지를 빠르고<br>일관되게 만드는 구조.</h1>
+          <p class="dure-hero__lead">
+            Container, Section, Grid, Split, Hero, CTA를 조합해 두레의 모든 페이지를 같은 리듬으로 구성합니다.
+          </p>
+          <div class="dure-hero__actions">
+            <a class="dure-button dure-button--primary dure-button--lg" href="#layouts">레이아웃 보기</a>
+            <a class="dure-button dure-button--secondary dure-button--lg" href="#cta">CTA 보기</a>
+          </div>
+        </div>
+        <aside class="dure-hero__aside dure-stack dure-stack--4">
+          <span class="demo-label">HERO ASIDE</span>
+          <h2 class="dure-heading-3">조합 가능한 레이아웃</h2>
+          <p class="dure-body">고정된 페이지 템플릿이 아니라, 필요한 블록을 조합하는 방식입니다.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="layouts" class="dure-section dure-section--soft dure-section--bordered">
+      <div class="dure-container dure-stack dure-stack--12">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">01 · GRID</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Grid Component</h2>
+          </div>
+          <p class="dure-section-head__description">2열, 3열, 4열과 자동 반응형 그리드를 제공합니다.</p>
+        </div>
+
+        <div class="dure-grid dure-grid--3">
+          <div class="demo-box">Grid 1</div>
+          <div class="demo-box">Grid 2</div>
+          <div class="demo-box">Grid 3</div>
+        </div>
+
+        <div class="dure-grid dure-grid--auto-md">
+          <div class="demo-box">Auto 1</div>
+          <div class="demo-box">Auto 2</div>
+          <div class="demo-box">Auto 3</div>
+          <div class="demo-box">Auto 4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dure-section">
+      <div class="dure-container dure-stack dure-stack--12">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">02 · SPLIT</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Split Layout</h2>
+          </div>
+          <p class="dure-section-head__description">텍스트와 이미지, 설명과 카드처럼 서로 다른 콘텐츠를 안정적으로 배치합니다.</p>
+        </div>
+
+        <div class="dure-split">
+          <div class="dure-stack dure-stack--6">
+            <span class="dure-badge">Text Area</span>
+            <h3 class="dure-heading-2">우리 동네의 손님을 연결하세요.</h3>
+            <p class="dure-body-lg">왼쪽에는 핵심 메시지, 오른쪽에는 이미지나 상세 정보를 배치할 수 있습니다.</p>
+            <div class="dure-inline dure-inline--3">
+              <a class="dure-button dure-button--primary" href="#">Primary</a>
+              <a class="dure-button dure-button--secondary" href="#">Secondary</a>
+            </div>
+          </div>
+          <div class="demo-box" style="min-height:360px">Media Area</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dure-section dure-section--soft">
+      <div class="dure-container dure-stack dure-stack--12">
+        <div class="dure-section-head">
+          <div class="dure-section-head__copy">
+            <span class="dure-eyebrow">03 · SURFACE</span>
+            <h2 class="dure-heading-2" style="margin-top:16px">Surface Component</h2>
+          </div>
+        </div>
+        <div class="dure-grid dure-grid--3">
+          <article class="dure-surface dure-stack dure-stack--4">
+            <span class="dure-badge">Default</span>
+            <h3 class="dure-heading-3">기본 표면</h3>
+            <p class="dure-body">일반 정보 카드와 안내 영역에 사용합니다.</p>
+          </article>
+          <article class="dure-surface dure-surface--soft dure-stack dure-stack--4">
+            <span class="dure-badge">Soft</span>
+            <h3 class="dure-heading-3">부드러운 표면</h3>
+            <p class="dure-body">배경 구분이 필요한 보조 콘텐츠에 사용합니다.</p>
+          </article>
+          <article class="dure-surface dure-surface--dark dure-stack dure-stack--4">
+            <span class="dure-badge">Dark</span>
+            <h3 class="dure-heading-3">강조 표면</h3>
+            <p style="color:rgba(255,255,255,.72);margin:0">핵심 정보나 전환 유도 영역에 사용합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="dure-section">
+      <div class="dure-container dure-stack dure-stack--12">
+        <div class="dure-cta">
+          <div>
+            <span class="dure-cta__label">DURE CTA</span>
+            <h2 class="dure-cta__title">우리 동네의 새로운 연결을 시작하세요.</h2>
+            <p class="dure-cta__description">가족가게와 이웃가게가 함께 성장하는 구조를 만듭니다.</p>
+          </div>
+          <div class="dure-cta__actions">
+            <a class="dure-button dure-button--soft dure-button--lg" href="#">가족가게 신청</a>
+            <a class="dure-button dure-button--secondary dure-button--lg" href="#">이웃가게 보기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
