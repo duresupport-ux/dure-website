@@ -1,0 +1,27 @@
+{
+  "page": "family-store/index.html",
+  "legacy_class_counts": {
+    "frame": 0,
+    "intro": 2,
+    "visual-section": 6,
+    "section-heading": 0,
+    "cta-band": 0,
+    "paths__grid": 0,
+    "path-card": 4
+  },
+  "design_system_class_counts": {
+    "dure-container": 9,
+    "dure-section": 29,
+    "dure-hero": 4,
+    "dure-section-head": 12,
+    "dure-cta": 5,
+    "dure-grid": 2,
+    "dure-card": 4,
+    "dure-button": 10
+  },
+  "missing_assets": [],
+  "css_lines_before": 473,
+  "css_lines_after": 155,
+  "css_reduction_percent": 67.2,
+  "hero_structure_fixed": true
+}
