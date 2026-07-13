@@ -7,27 +7,10 @@
 <meta content="#ffffff" name="theme-color"/>
 <meta content="두레 — 우리 동네의 손님을 연결하는 QR 기반 로컬 홍보 서비스" name="description"/>
 <title>두레 | 우리 동네의 손님을 연결하세요</title>
-
 <link href="./assets/css/tokens.css" rel="stylesheet"/><link href="./assets/css/base.css" rel="stylesheet"/><link href="./assets/css/components.css" rel="stylesheet"/><link href="./assets/css/pages/home.css" rel="stylesheet"/></head>
 <body>
 <a class="skip-link" href="#content">본문으로 이동</a>
-<header class="header">
-<div class="header__inner">
-<a aria-label="두레 홈" class="brand" href="#top">
-<span aria-hidden="true" class="brand__mark"></span>
-<span>두레</span>
-</a>
-<nav aria-label="주요 메뉴" class="nav">
-<a href="#about">두레 소개</a>
-<a href="#family">가족가게</a>
-<a href="#neighbor">이웃가게</a>
-</nav>
-<div class="header__actions">
-<a class="button" href="./neighbor-store/" rel="noopener" target="_blank">이웃가게 홍보</a>
-<a class="button button--primary" href="./family-application/" rel="noopener" target="_blank">가족가게 신청</a>
-</div>
-</div>
-</header>
+<dure-header data-variant="home"></dure-header>
 <main id="content">
 <section class="frame intro" id="top">
 <div class="reveal">
@@ -151,12 +134,7 @@
 </div>
 </section>
 </main>
-<footer class="footer">
-<div class="footer__inner">
-<div class="footer__brand">두레</div>
-<div>우리 동네의 가게들이 함께 성장하는 새로운 연결</div>
-</div>
-</footer>
+<dure-footer data-variant="default"></dure-footer>
 <script>
     (() => {
       const targets = document.querySelectorAll('.reveal');
@@ -175,5 +153,5 @@
       targets.forEach(el => observer.observe(el));
     })();
   </script>
-<script defer="True" src="./assets/js/common.js"></script></body>
+<script defer="True" src="./assets/js/components.js"></script><script defer="True" src="./assets/js/common.js"></script></body>
 </html>

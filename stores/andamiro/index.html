@@ -7,23 +7,10 @@
 <meta content="#ffffff" name="theme-color"/>
 <meta content="두레 가족가게 안다미로 스시 홍보 안내 페이지" name="description"/>
 <title>두레 | 안다미로 스시에 우리 가게 홍보하기</title>
-
 <link href="../../assets/css/tokens.css" rel="stylesheet"/><link href="../../assets/css/base.css" rel="stylesheet"/><link href="../../assets/css/components.css" rel="stylesheet"/><link href="../../assets/css/pages/andamiro.css" rel="stylesheet"/></head>
 <body>
 <a class="skip" href="#content">본문으로 이동</a>
-<header class="header">
-<div class="header__inner">
-<a aria-label="두레 안다미로 스시 안내 처음으로" class="brand" href="#top">
-<span aria-hidden="true" class="brand__mark"></span><span>두레</span>
-</a>
-<nav aria-label="페이지 이동" class="nav">
-<a href="#store">매장 정보</a>
-<a href="#promotion">홍보 방식</a>
-<a href="#neighbors">이웃가게</a>
-</nav>
-<a class="button button--primary" href="https://zzznly.notion.site/36b25bad8e4780ad955bcf541b3407ee?pvs=21" rel="noopener noreferrer" target="_blank">이웃가게 신청</a>
-</div>
-</header>
+<dure-header data-variant="andamiro"></dure-header>
 <main id="content">
 <section aria-labelledby="hero-title" class="frame hero" id="top">
 <div class="reveal">
@@ -138,9 +125,7 @@
 </div>
 </section>
 </main>
-<footer class="footer">
-<div class="footer__inner"><span class="footer__brand">두레</span><span>우리 동네의 손님을 연결하는 QR 기반 로컬 홍보 서비스</span></div>
-</footer>
+<dure-footer data-variant="andamiro"></dure-footer>
 <script>
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -152,5 +137,5 @@
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
   </script>
-<script defer="True" src="../../assets/js/common.js"></script></body>
+<script defer="True" src="../../assets/js/components.js"></script><script defer="True" src="../../assets/js/common.js"></script></body>
 </html>

@@ -1,0 +1,13 @@
+{
+  "componentized_pages": [
+    "index.html",
+    "family-store/index.html",
+    "neighbor-store/index.html",
+    "family-application/index.html",
+    "stores/andamiro/index.html"
+  ],
+  "legacy_headers_remaining": [],
+  "legacy_footers_remaining": [],
+  "component_script_missing": [],
+  "missing_local_assets": []
+}

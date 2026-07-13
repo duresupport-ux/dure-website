@@ -34,3 +34,10 @@ python3 -m http.server 8000
 ## GitHub
 
 이 폴더의 **내용물 전체**를 `dure-website` 저장소 루트에 업로드합니다.
+
+
+## 공통 Header / Footer
+
+- `assets/js/components.js`에서 전 페이지의 헤더와 푸터를 관리합니다.
+- 각 HTML에는 `<dure-header>`와 `<dure-footer>`만 남습니다.
+- 상세 구조는 `docs/COMPONENT_ARCHITECTURE.md`를 확인합니다.
