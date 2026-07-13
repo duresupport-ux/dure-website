@@ -63,14 +63,14 @@
   };
 
   const brandMarkup = (ariaLabel, homeHref, modifier = "") => `
-    <a class="brand${modifier ? ` ${modifier}` : ""}" href="${homeHref}" aria-label="${ariaLabel}">
-      <span class="brand__mark" aria-hidden="true"></span>
+    <a class="brand dure-brand${modifier ? ` ${modifier}` : ""}" href="${homeHref}" aria-label="${ariaLabel}">
+      <span class="brand__mark dure-brand__mark" aria-hidden="true"></span>
       <span>두레</span>
     </a>
   `;
 
   const actionMarkup = ([label, href, type, external = false]) => {
-    const classes = type === "primary" ? "button button--primary" : "button";
+    const classes = type === "primary" ? "button button--primary dure-button dure-button--primary" : "button dure-button dure-button--secondary";
     const externalAttrs = external ? ' target="_blank" rel="noopener noreferrer"' : "";
     return `<a class="${classes}" href="${href}"${externalAttrs}>${label}</a>`;
   };
@@ -99,8 +99,8 @@
       const actions = config.actions.map(actionMarkup).join("");
 
       this.innerHTML = `
-        <header class="header">
-          <div class="header__inner">
+        <header class="header dure-header">
+          <div class="header__inner dure-container dure-header__inner">
             ${brandMarkup(config.ariaLabel, url(""))}
             <nav class="nav" aria-label="${config.navLabel}">
               ${nav}
@@ -128,8 +128,8 @@
 
       if (variant === "neighbor") {
         this.innerHTML = `
-          <footer class="footer">
-            <div class="footer__inner">
+          <footer class="footer dure-site-footer">
+            <div class="footer__inner dure-container dure-site-footer__inner">
               <span>두레 · 우리 동네 가게를 연결합니다.</span>
               <span>© ${year} DURE. All rights reserved.</span>
             </div>
@@ -140,8 +140,8 @@
 
       if (variant === "andamiro") {
         this.innerHTML = `
-          <footer class="footer">
-            <div class="footer__inner">
+          <footer class="footer dure-site-footer">
+            <div class="footer__inner dure-container dure-site-footer__inner">
               <span class="footer__brand">두레</span>
               <span>우리 동네의 손님을 연결하는 QR 기반 로컬 홍보 서비스</span>
             </div>
@@ -151,8 +151,8 @@
       }
 
       this.innerHTML = `
-        <footer class="footer">
-          <div class="footer__inner">
+        <footer class="footer dure-site-footer">
+          <div class="footer__inner dure-container dure-site-footer__inner">
             <div class="footer__brand">두레</div>
             <div>우리 동네의 가게들이 함께 성장하는 새로운 연결</div>
           </div>

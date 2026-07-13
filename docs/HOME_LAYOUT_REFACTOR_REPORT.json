@@ -1,0 +1,27 @@
+{
+  "page": "index.html",
+  "replaced": {
+    "frame": 0,
+    "intro": 0,
+    "visual-section": 6,
+    "section-heading": 0,
+    "cta-band": 0,
+    "paths__grid": 0,
+    "path-card": 4,
+    "legacy_page_buttons": 0
+  },
+  "design_system_classes": {
+    "dure-container": 9,
+    "dure-section": 29,
+    "dure-hero": 4,
+    "dure-section-head": 12,
+    "dure-cta": 5,
+    "dure-grid": 2,
+    "dure-card": 4,
+    "dure-button": 10
+  },
+  "missing_assets": [],
+  "home_css_lines_before": 473,
+  "home_css_lines_after": 192,
+  "css_line_reduction_percent": 59.4
+}
