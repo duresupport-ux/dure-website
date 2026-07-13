@@ -1,0 +1,28 @@
+{
+  "page": "neighbor-store/index.html",
+  "legacy_class_counts": {
+    "frame": 0,
+    "hero": 7,
+    "story-grid": 1,
+    "shop-list": 0,
+    "shop-card": 2,
+    "guide-card": 1
+  },
+  "design_system_class_counts": {
+    "dure-container": 4,
+    "dure-section": 14,
+    "dure-hero": 5,
+    "dure-section-head": 6,
+    "dure-split": 3,
+    "dure-grid": 4,
+    "dure-card": 5,
+    "dure-surface": 2,
+    "dure-button": 10
+  },
+  "missing_assets": [],
+  "css_lines_before": 128,
+  "css_lines_after": 180,
+  "css_reduction_percent": -40.6,
+  "hero_structure_fixed": true,
+  "note": "원본 CSS가 한 줄 압축 형식이어서 줄 수 감소율은 품질 지표로 사용하지 않음."
+}
