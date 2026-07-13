@@ -1,9 +1,0 @@
-{
-  "name": "두레",
-  "short_name": "두레",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "icons": []
-}
